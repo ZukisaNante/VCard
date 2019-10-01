@@ -39,6 +39,21 @@ export default StyleSheet.create({
     'float': 'right',
     'padding': [{ 'unit': 'px', 'value': 10 }, { 'unit': 'px', 'value': 10 }, { 'unit': 'px', 'value': 10 }, { 'unit': 'px', 'value': 10 }]
   },
+  // button fade-in
+  'button': {
+    'backgroundColor': '#f4511e',
+    'border': [{ 'unit': 'string', 'value': 'none' }],
+    'color': 'white',
+    'padding': [{ 'unit': 'px', 'value': 16 }, { 'unit': 'px', 'value': 32 }, { 'unit': 'px', 'value': 16 }, { 'unit': 'px', 'value': 32 }],
+    'textAlign': 'center',
+    'fontSize': [{ 'unit': 'px', 'value': 16 }],
+    'margin': [{ 'unit': 'px', 'value': 4 }, { 'unit': 'px', 'value': 2 }, { 'unit': 'px', 'value': 4 }, { 'unit': 'px', 'value': 2 }],
+    'opacity': '0.6',
+    'transition': '0.3s'
+  },
+  'button:hover': {
+    'opacity': '1'
+  },
   // shake image
   'img:hover': {
     'animation': 'shake 0.5s',
